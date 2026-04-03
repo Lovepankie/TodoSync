@@ -1,0 +1,9 @@
+-keep class com.google.api.** { *; }
+-keep class com.google.apis.** { *; }
+-keep class com.google.auth.** { *; }
+-keep class com.google.oauth2.** { *; }
+-dontwarn com.google.api.**
+-dontwarn com.google.http.client.**
+-dontwarn org.apache.**
+-dontwarn javax.xml.**
+-keep class com.todoapp.** { *; }

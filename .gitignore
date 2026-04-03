@@ -1,0 +1,38 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Build directories
+build/
+app/build/
+
+# Gradle files
+.gradle/
+local.properties
+
+# Sensitive files
+google-services.json
+app/google-services.json
+*.keystore
+*.jks
+
+# Android Studio
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Build logs
+build_err.txt
+build_out.txt
+
+# Claude Code local settings
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db

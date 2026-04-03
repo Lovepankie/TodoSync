@@ -1,0 +1,114 @@
+[versions]
+agp                       = "8.7.3"
+kotlin                    = "2.1.0"
+ksp                       = "2.1.0-1.0.29"
+googleServices            = "4.4.2"
+
+# AndroidX / Compose
+coreKtx                   = "1.15.0"
+lifecycleRuntime          = "2.8.7"
+activityCompose           = "1.9.3"
+composeBom                = "2024.12.01"
+navigationCompose         = "2.8.5"
+hiltNavigationCompose     = "1.2.0"
+viewmodelCompose          = "2.8.7"
+roomVersion               = "2.6.1"
+workmanager               = "2.10.0"
+
+# DI
+hilt                      = "2.54"
+
+# Google Sign-In / OAuth
+googleAuth                = "21.3.0"
+credentialManager         = "1.3.0"
+
+# Google API Client
+googleApiClient           = "2.7.0"
+googleHttpClientAndroid   = "1.44.2"
+googleApiServicesTasks    = "v1-rev20250518-2.0.0"
+googleApiServicesCalendar = "v3-rev20250404-2.0.0"
+googleApiServicesGmail    = "v1-rev20250331-2.0.0"
+googleOauthClient         = "1.36.0"
+
+# Coroutines
+coroutines                = "1.9.0"
+
+# DataStore
+datastore                 = "1.1.1"
+
+# Testing
+junit                     = "4.13.2"
+junitExt                  = "1.2.1"
+espressoCore              = "3.6.1"
+
+[libraries]
+# AndroidX Core
+androidx-core-ktx         = { group = "androidx.core",              name = "core-ktx",                       version.ref = "coreKtx" }
+lifecycle-runtime-ktx     = { group = "androidx.lifecycle",         name = "lifecycle-runtime-ktx",          version.ref = "lifecycleRuntime" }
+activity-compose          = { group = "androidx.activity",          name = "activity-compose",               version.ref = "activityCompose" }
+viewmodel-compose         = { group = "androidx.lifecycle",         name = "lifecycle-viewmodel-compose",    version.ref = "viewmodelCompose" }
+
+# Compose BOM + modules
+compose-bom               = { group = "androidx.compose",           name = "compose-bom",                    version.ref = "composeBom" }
+compose-ui                = { group = "androidx.compose.ui",        name = "ui" }
+compose-ui-graphics       = { group = "androidx.compose.ui",        name = "ui-graphics" }
+compose-ui-tooling-preview= { group = "androidx.compose.ui",        name = "ui-tooling-preview" }
+compose-material3         = { group = "androidx.compose.material3", name = "material3" }
+compose-material-icons    = { group = "androidx.compose.material",  name = "material-icons-extended" }
+compose-ui-tooling        = { group = "androidx.compose.ui",        name = "ui-tooling" }
+compose-ui-test-manifest  = { group = "androidx.compose.ui",        name = "ui-test-manifest" }
+compose-ui-test-junit4    = { group = "androidx.compose.ui",        name = "ui-test-junit4" }
+
+# Navigation
+navigation-compose        = { group = "androidx.navigation",        name = "navigation-compose",             version.ref = "navigationCompose" }
+hilt-navigation-compose   = { group = "androidx.hilt",              name = "hilt-navigation-compose",        version.ref = "hiltNavigationCompose" }
+
+# Room
+room-runtime              = { group = "androidx.room",              name = "room-runtime",                   version.ref = "roomVersion" }
+room-ktx                  = { group = "androidx.room",              name = "room-ktx",                       version.ref = "roomVersion" }
+room-compiler             = { group = "androidx.room",              name = "room-compiler",                  version.ref = "roomVersion" }
+
+# WorkManager
+workmanager-ktx           = { group = "androidx.work",              name = "work-runtime-ktx",               version.ref = "workmanager" }
+hilt-work                 = { group = "androidx.hilt",              name = "hilt-work",                      version = "1.2.0" }
+hilt-compiler-androidx    = { group = "androidx.hilt",              name = "hilt-compiler",                  version = "1.2.0" }
+
+# Hilt DI
+hilt-android              = { group = "com.google.dagger",          name = "hilt-android",                   version.ref = "hilt" }
+hilt-compiler             = { group = "com.google.dagger",          name = "hilt-android-compiler",          version.ref = "hilt" }
+
+# Google Auth
+play-services-auth        = { group = "com.google.android.gms",     name = "play-services-auth",             version.ref = "googleAuth" }
+credentials               = { group = "androidx.credentials",       name = "credentials",                    version.ref = "credentialManager" }
+credentials-play-auth     = { group = "androidx.credentials",       name = "credentials-play-services-auth", version.ref = "credentialManager" }
+googleid                  = { group = "com.google.android.libraries.identity.googleid", name = "googleid",   version = "1.1.1" }
+
+# Google API Java Client
+google-api-client-android = { group = "com.google.api-client",     name = "google-api-client-android",      version.ref = "googleApiClient" }
+google-http-client-android= { group = "com.google.http-client",    name = "google-http-client-android",     version.ref = "googleHttpClientAndroid" }
+google-oauth-client       = { group = "com.google.oauth-client",   name = "google-oauth-client",            version.ref = "googleOauthClient" }
+
+# Google API Services
+google-api-tasks          = { group = "com.google.apis",           name = "google-api-services-tasks",      version.ref = "googleApiServicesTasks" }
+google-api-calendar       = { group = "com.google.apis",           name = "google-api-services-calendar",   version.ref = "googleApiServicesCalendar" }
+google-api-gmail          = { group = "com.google.apis",           name = "google-api-services-gmail",      version.ref = "googleApiServicesGmail" }
+
+# Coroutines
+coroutines-android        = { group = "org.jetbrains.kotlinx",     name = "kotlinx-coroutines-android",     version.ref = "coroutines" }
+coroutines-play-services  = { group = "org.jetbrains.kotlinx",     name = "kotlinx-coroutines-play-services", version.ref = "coroutines" }
+
+# DataStore
+datastore-preferences     = { group = "androidx.datastore",        name = "datastore-preferences",          version.ref = "datastore" }
+
+# Testing
+junit                     = { group = "junit",                      name = "junit",                          version.ref = "junit" }
+junit-ext                 = { group = "androidx.test.ext",          name = "junit",                          version.ref = "junitExt" }
+espresso-core             = { group = "androidx.test.espresso",     name = "espresso-core",                  version.ref = "espressoCore" }
+
+[plugins]
+android-application       = { id = "com.android.application",             version.ref = "agp" }
+kotlin-android            = { id = "org.jetbrains.kotlin.android",         version.ref = "kotlin" }
+kotlin-compose            = { id = "org.jetbrains.kotlin.plugin.compose",  version.ref = "kotlin" }
+ksp                       = { id = "com.google.devtools.ksp",              version.ref = "ksp" }
+hilt                      = { id = "com.google.dagger.hilt.android",       version.ref = "hilt" }
+google-services           = { id = "com.google.gms.google-services",       version.ref = "googleServices" }

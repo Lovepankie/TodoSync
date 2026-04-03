@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoSync</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_event">Add Event</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="priority">Priority</string>
+    <string name="type">Type</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="syncing">Syncing…</string>
+    <string name="sync_success">Synced successfully</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="not_signed_in">Not signed in</string>
+    <string name="tasks">Tasks</string>
+    <string name="events">Events</string>
+    <string name="reminders">Reminders</string>
+    <string name="all">All</string>
+    <string name="completed">Completed</string>
+    <string name="mark_complete">Mark complete</string>
+    <string name="mark_incomplete">Mark incomplete</string>
+    <string name="no_items">No items yet. Tap + to add one.</string>
+    <string name="start_date">Start Date &amp; Time</string>
+    <string name="end_date">End Date &amp; Time</string>
+    <string name="location">Location (optional)</string>
+    <string name="google_client_id" translatable="false">607519910405-qdm206plnuj6n0h9auf311lrnqj9ko9a.apps.googleusercontent.com</string>
+</resources>
